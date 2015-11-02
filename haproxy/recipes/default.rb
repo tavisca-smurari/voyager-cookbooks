@@ -19,7 +19,6 @@
 
 
 bash 'GetUpdatedHaproxyextract_module' do
-  cwd ::File.dirname(src_filepath)
   code <<-EOH
     sudo add-apt-repository ppa:vbernat/haproxy-1.6
     sudo apt-get update
