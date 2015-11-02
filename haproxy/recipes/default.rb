@@ -22,7 +22,7 @@ bash 'GetUpdatedHaproxyextract_module' do
   code <<-EOH
     sudo add-apt-repository ppa:vbernat/haproxy-1.6
     sudo apt-get update
-    sudo apt-get install haproxy
+    sudo apt-get -y install haproxy
     EOH
 end
 
