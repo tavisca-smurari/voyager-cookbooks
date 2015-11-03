@@ -88,7 +88,7 @@ frontend http-in
       <% end -%>
     <% end -%>
   <% end -%>
-
+  
   <% if !node[:haproxy][:iis_backends].empty? -%>
   default_backend iis_app_servers
   <% end -%>
@@ -120,4 +120,3 @@ frontend https-in
   default_backend iis_app_servers_ssl
   <% end -%>
 
-<% end -%>  
