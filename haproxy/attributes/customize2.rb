@@ -1,4 +1,4 @@
-{
+normal({
 "haproxy": {
   "maxcon_factor_iis_app": 1024,
   "connect_timeout": "30s",
@@ -62,4 +62,4 @@
   "bucket" : "varun-iis-cookbook",
   "s3_url" : "https://s3-us-west-2.amazonaws.com/varun-iis-cookbook"
 }
-}
+})
