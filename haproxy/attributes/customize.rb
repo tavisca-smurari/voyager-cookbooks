@@ -9,4 +9,5 @@
 # The following shows how to override the HA-Proxy stats url and user:
 #
 normal[:haproxy][:stats_url] = '/haproxy?statss'
+
 #normal[:haproxy][:stats_user] = 'opsworks'

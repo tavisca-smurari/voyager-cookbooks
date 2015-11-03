@@ -77,3 +77,4 @@ default[:haproxy][:enable_stats] = false
 default[:haproxy][:balance] = 'roundrobin'
 
 include_attribute "haproxy::customize"
+include_attribute "haproxy::customize2"
